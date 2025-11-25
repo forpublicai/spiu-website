@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Swiss Public Inference Utility (SWIU)</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiss Public Inference Utility 𜷶 Apertus</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7/picnic.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="umbrella.svg" type="image/svg+xml">
 </head>
 <body>
-    <header class="container">
-        <h1>Swiss Public Inference Utility (SWIU)</h1>
-        <nav>
-            <ul>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#hacknight-goals">HACKnight Goals</a></li>
-            </ul>
-        </nav>
+  <nav>
+    <div class="brand">
+      <a href="/" title="Swiss Public Inference Utility">
+        <img src="brand.svg" alt="Logo" class="logo">
+      </a>
+    </div>
+    <div class="menu">
+      <a href="#about" class="pseudo button icon-ok"><span class="text">About</a>
+      <a href="#get-involved" class="pseudo button icon-ok"><span class="text">Get Involved</a>
+      <a href="#resources" class="pseudo button icon-ok"><span class="text">Resources</a>
+    </div>
+  </nav>
+  <main>
+    <header class="hero">
+      <div class="content">
+        <h1>Public AI powered by Apertus</h1>
+      </div>
     </header>
-
-    <main class="container">
-        <div class="visual flex one two-800">
-        <section id="overview">
-            <h2>Overview</h2>
-            <p>Developing large language technologies as a public service tool can revolutionize the way individuals interact with information, improving access to knowledge and resources. <strong>Public AI</strong> is a movement and vision for open-source AI that emphasizes sustainability, optimizes for social impact and reduces reliance on monopolistic and proprietary models.</p>
-
-            <p>By prioritizing sovereignty and neutrality, we can try to ensure the service remains unbiased, let users understand transparently how their data is handled, how governance decisions are made. Ultimately, this gives individuals more agency over how they use and build on AI. To tackle this complex challenge, research and development can begin with a variety of datasets and resources. For instance, using large, publicly available datasets like <a href="https://commoncrawl.org/" target="_blank">Common Crawl</a>, <a href="https://github.com/huggingface/fineweb-2" target="_blank">FineWeb 2</a>, <a href="https://huggingface.co/datasets/wikimedia/wikipedia" target="_blank">Wikipedia</a>, news archives or legal texts, to provide a comprehensive foundation. Additionally, there are APIs like <a href="https://openrouter.ai/" target="_blank">OpenRouter</a> or <a href="https://endpoints.huggingface.co/" target="_blank">Hugging Face</a> that offer pre-trained models under permissive licenses—these can be used in conjunction with a pooled community effort to tune and customize a model. It's also essential to incorporate multilingual data to reflect global accessibility and inclusivity, leveraging resources from platforms like <a href="https://huggingface.co/datasets/Helsinki-NLP/open_subtitles" target="_blank">OpenSubtitles</a> for translation and various global news services for content variety.</p>
-
-            <p><strong>Implementing a large language model as a public service tool could be transformative, impacting society in several areas.</strong> By focusing on sustainability and transparency to minimize environmental and political biases, the tool can become a trusted source of information. It could democratize access to knowledge, bridging gaps for individuals in underserved areas or with lesser economic resources, offering clear explanations or translations at a personal level. Moreover, ensuring user agency means that individuals can interact with the AI in a safe, informed manner—understanding the potential risks of AI while benefiting from its capabilities. This approach could shift the landscape for how AI is developed, used, and governed in the public sphere, leading to more inclusive, responsible, and community-driven technological advancements.</p>
-
-            <p>🅰️ℹ️ <code>generated with APERTUS-70B-INSTRUCT</code></p>
-        </section>
-
-        <section id="hacknight-goals">
-            <h2>HACKnight Goals</h2>
-
-            <div class="goal beginner">
-                <h3>🟢 <tt>beginner</tt></h3>
-                <p>Try the public inference at <a href="https://chat.publicai.co" target="_blank">chat.publicai.co</a>. Create an account, and test the Apertus ("Switzerland") instance for yourself. Please take five minutes to fill out the <a href="https://forms.gle/9TGSfTK1RfKj2b6X9" target="_blank">Apertus User Satisfaction Survey</a> with your feedback.</p>
-            </div>
-
-            <div class="goal intermediate">
-                <h3>🔵 <tt>intermediate</tt></h3>
-                <p>Learn more about the mission of <a href="https://publicai.co" target="_blank">Public AI</a>, and how we plan to further support the Inference Utility based on the <a href="https://www.swiss-ai.org/apertus" target="_blank">Apertus project</a>. Brainstorm and share ideas of cool projects that could be made possible with this. Join our new <a href="https://huggingface.co/swiu" target="_blank">Hugging Face organization</a>, and help to build a local community. There was a <a href="https://speakerdeck.com/opendatach/bienne-2025" target="_blank">presentation in Biel/Bienne</a> yesterday (in French).</p>
-            </div>
-
-            <div class="goal advanced">
-                <h3>⬤ <tt>advanced</tt></h3>
-                <p>Find more technical background and links about Apertus on the <a href="https://drib.siliconlovefield.ch/project/40" target="_blank">Hackathon resources</a>. Connect to the Public AI API with your own app (an <a href="https://huggingface.co/spaces/loleg/biel-demain" target="_blank">example is here</a>), or even run the model on your own server/hardware (see <a href="https://log.alets.ch/110/" target="_blank">blog post</a>). Learn to connect your model to an MCP service, or even write your own for the <a href="https://huggingface.co/MCP-1st-Birthday" target="_blank">MCP 1st birthday hackathon</a>.</p>
-                <p><a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank"><img title="Hugging Face welcomes Public AI" src="https://huggingface.co/blog/assets/inference-providers/welcome-publicai.jpg" width="600"></a></p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="container">
-        <p>&copy; 2025 Swiss Public Inference Utility. All rights reserved.</p>
-    </footer>
+    <small>&nbsp;
+      Photo credits: 
+      <a href="https://commons.wikimedia.org/wiki/File:View_of_Lake_Lugano_01.jpg" target="_blank">John Samuel</a> (CC BY 4.0)
+    </small>
+    <section class="flex one">
+      <div class="content" id="about">
+        <h2>Empowering Global Access to Knowledge</h2>
+        <p>
+          Large language technologies, when developed as public service tools, can revolutionize access to information. Public AI is a movement that emphasizes sustainability and social impact, aiming to reduce reliance on proprietary models. It prioritizes sovereignty and neutrality to ensure unbiased services where users understand data handling and governance transparently.
+        </p>
+        <h3>Transforming Access to Knowledge and Building Inclusive AI</h3>
+        <p>
+          To build such a tool, we start with diverse datasets (e.g., Common Crawl, Wikipedia, OpenSubtitles) and open-source APIs (e.g., OpenRouter, Hugging Face). This allows us to create a comprehensive, multilingual foundation that supports global accessibility. By doing so, we aim to democratize access to knowledge, bridging gaps for underserved communities and offering personalized support in multiple languages.
+        </p>
+        <h3>Join the Movement for Inclusive and Responsible AI</h3>
+        <p>
+          Implementing a large language model as a public service tool can lead to significant societal impacts. It can become a trusted source of information, provide clear explanations, and ensure users can interact with AI safely and informedly. This approach seeks to shift the AI development landscape towards more inclusivity, responsibility, and community engagement. 
+        </p>
+        <h3>In summary:</h3>
+        <ul>
+          <li>Multilingual support (60+ languages, including Swiss national languages)</li>
+          <li>Sustainable and transparent development process</li>
+          <li>Open-source and community-driven</li>
+        </ul>
+      </div>
+    </section>
+    <section class="flex one">
+      <div class="content" id="get-involved">
+        <h2>Get Involved</h2>
+        <p>🟢 Test the API: <a href="https://chat.publicai.co">chat.publicai.co</a></p>
+        <p>🔵 Fill out the <a href="https://forms.gle/9TGSfTK1RfKj2b6X9">Apertus User Satisfaction Survey</a></p>
+        <p>🔴 Join our community: <a href="https://huggingface.co/swiu">Hugging Face organization</a></p>
+      </div>
+    </section>
+    <section class="flex one">
+      <div class="content" id="resources">
+        <h2>Additional Resources</h2>
+        <ul>
+          <li><a href="https://www.swiss-ai.org/apertus">Apertus documentation</a></li>
+          <li><a href="https://publicai.co">Public AI homepage</a></li>
+          <li><a href="https://huggingface.co/blog/inference-providers-publicai">Hugging Face: Public AI</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
