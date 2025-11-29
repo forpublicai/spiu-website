@@ -118,10 +118,9 @@ Mitglieder ist ausgeschlossen.
 <li>persönlich unterzeichnetes Eintrittsgesuch (auch als PDF), in welchem die Anerkennung der Statuten enthalten sein muss;</li>
 <li>die Bezahlung von zwei Anteilscheinen im Nennwert von CHF 50.00 (Schweizer Franken fünfzig), d.h. total CHF 100.00 (Schweizer Franken hundert);</li>
 <li>mind. sieben validierte Tage Leistungsdaten im Kalenderjahr. Diese Tage müssen Leistungen ausserhalb des Wohn- oder Arbeitsortes beinhalten.</li>
+</ol>
 
-<li>Wohnsitz in der Schweiz.</li></ol>
-
-2. Über die Aufnahme als Mitglied entscheidet die Verwaltung endgültig. Die Verwaltung kann ein Gesuch ohne Begründung ablehnen. Die Verwaltung kann in Ausnahmefällen die Aufnahme von Mitgliedern mit Wohnsitz ausserhalb der Schweiz gewähren.
+2. Über die Aufnahme als Mitglied entscheidet die Verwaltung endgültig. Die Verwaltung kann ein Gesuch ohne Begründung ablehnen.
 
 3. Die Genossenschaft SPIU kann auch virtuelle Genossenschaften für andere Länder aufbauen. Diese können ab einer gewissen Grösse in Länder-Genossenschaften überführt werden.
 
@@ -138,7 +137,6 @@ Mitglieder ist ausgeschlossen.
 <ol type="a" start="a">
 <li>freiwilligen Austritt;</li>
 <li>Ausschluss;</li>
-<li>Wohnsitznahme im Ausland;</li>
 <li>Tod des Mitglieds.</li></ol>
 
 2. Freiwilliger Austritt

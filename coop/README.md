@@ -15,7 +15,7 @@ To become an eligible member, you will need to purchase 2 shares in the first ye
 
 ## Rechtliche Grundlagen - Legal Basis
 
-- [Statuten - Statutes](statutes.md)
+- [Statuten - Statutes](statutes/statutes_de.md)
 - [Handelregisteramt Bern](http://www.hrabe.ch/)
 
 ## Operatives – Operations
