@@ -2,7 +2,7 @@
 
 ### 1. Read the Statutes
 
-[Here are our statutes](statutes.md). It’s worth reading them before you join us!
+[Here are our statutes](statutes/statutes_en.md). It’s worth reading them before you join us!
 
 ### 2. Connect with Us
 
