@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="10.312643cm"
-   height="2.2410274cm"
-   viewBox="0 0 103.12643 22.410274"
+   width="10cm"
+   height="4cm"
+   viewBox="0 0 100 40.000001"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
-   sodipodi:docname="brand.svg"
+   sodipodi:docname="header.svg"
+   inkscape:export-filename="header.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,15 +26,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.0271535"
-     inkscape:cx="1215.4951"
-     inkscape:cy="538.86786"
-     inkscape:window-width="3440"
-     inkscape:window-height="1371"
+     inkscape:zoom="1.8982858"
+     inkscape:cx="213.87717"
+     inkscape:cy="37.665561"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g1" />
   <defs
      id="defs1" />
   <g
@@ -132,61 +135,31 @@
       </g>
     </g>
     <g
-       transform="matrix(0.39011762,0,0,0.39011762,-190.14207,5.1736036)"
-       id="g132">
-      <text
-         x="0"
-         y="31.716"
-         font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
-         font-size="36px"
-         fill="#e03131"
-         text-anchor="start"
-         style="white-space:pre"
-         direction="ltr"
-         dominant-baseline="alphabetic"
-         id="text131"><tspan
-           id="tspan140"
-           x="0"
-           y="31.716"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font'">Swiss</tspan></text>
-    </g>
-    <g
-       transform="matrix(0.26458333,0,0,0.26458333,-189.29289,20.163374)"
+       transform="matrix(0.30051989,0,0,0.30051989,-191.18934,31.331175)"
        id="g133"
-       style="fill:#000000">
-      <text
-         x="0"
-         y="24.667999"
-         font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
-         font-size="28px"
-         fill="#e03131"
-         text-anchor="start"
-         style="white-space:pre;fill:#000000"
-         direction="ltr"
-         dominant-baseline="alphabetic"
-         id="text132"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font Bold';fill:#000000"
-           id="tspan141">Inference <tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font'"
-   id="tspan143">Utility</tspan></tspan></text>
-    </g>
+       style="fill:#e03131;fill-opacity:1" />
     <g
-       transform="matrix(0.31801371,0,0,0.31801371,-145.2842,10.200123)"
-       id="g142"
-       style="fill:#000000">
+       transform="matrix(0.2177452,0,0,0.2177452,-183.93917,13.893713)"
+       id="g1"
+       style="fill:#e03131;fill-opacity:1">
       <text
-         x="1.214805"
-         y="22.068394"
+         x="-21.511822"
+         y="43.379982"
          font-family="Excalifont, Xiaolai, sans-serif, 'Segoe UI Emoji'"
-         font-size="28px"
+         font-size="39.2678px"
          fill="#e03131"
          text-anchor="start"
-         style="white-space:pre;fill:#000000"
+         style="font-size:80.6101px;letter-spacing:12.4305px;white-space:pre;fill:#e03131;fill-opacity:1;stroke-width:3.18465"
          direction="ltr"
          dominant-baseline="alphabetic"
-         id="text142"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font Bold';fill:#000000"
-           id="tspan142">Public</tspan></text>
+         id="text1"><tspan
+           sodipodi:role="line"
+           x="-21.511822"
+           y="43.379982"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:80.6101px;font-family:'Hack Nerd Font';-inkscape-font-specification:'Hack Nerd Font Bold';letter-spacing:12.4305px;fill:#e03131;fill-opacity:1;stroke-width:3.18465"
+           id="tspan6">SPI<tspan
+   style="font-weight:normal;letter-spacing:12.4305px;fill:#000000;stroke-width:3.18465"
+   id="tspan7">U</tspan></tspan></text>
     </g>
   </g>
 </svg>
