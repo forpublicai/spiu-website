@@ -50,9 +50,9 @@ Together, let's build Public AI!
 
 🔵 Fill out the [Apertus User Satisfaction Survey](https://forms.gle/9TGSfTK1RfKj2b6X9)
 
-🔴 Join the technical community on [Hugging Face](https://huggingface.co/swiu)
+🤗 Join the technical community on [Hugging Face](https://huggingface.co/spiu)
 
-🇨🇭 Help us get started: [join the cooperative today](https://spiu.ch/coop/eintrittsgesuch.pdf)!
+🇨🇭 Help us get started: [join the cooperative today](https://huggingface.co/datasets/spiu/coop/blob/main/join.md#how-to-join-as-a-member)!
 
 🔖 Further Resources:
 
