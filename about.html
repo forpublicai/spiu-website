@@ -4,25 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About — Public AI Switzerland</title>
+  <link rel="alternate" hreflang="en" href="https://publicai.ch/about.html">
+  <link rel="alternate" hreflang="de-CH" href="https://publicai.ch/de/about.html">
+  <link rel="alternate" hreflang="fr-CH" href="https://publicai.ch/fr/about.html">
+  <link rel="alternate" hreflang="it-CH" href="https://publicai.ch/it/about.html">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7/picnic.min.css">
   <link href="assets/style.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/favicon.ico">
 </head>
 <body style="margin: 0; padding: 0;">
-  <nav class="transparent" style="background: transparent !important; background-color: transparent !important;">
-    <div class="brand">
-      <a href="/" title="Public AI Switzerland">
-        <img src="assets/public-ai-logo.png" alt="Public AI Logo" class="logo">
-      </a>
-    </div>
-    <div class="menu">
-      <a href="about.html" class="pseudo button icon-ok"><span class="text">About</span></a>
-      <a href="index.html#join" class="pseudo button icon-ok"><span class="text">Join</span></a>
-      <a href="#"
-         class="pseudo button"
-         style="opacity: 0.55; pointer-events: none; cursor: not-allowed;">
-        <span class="text">Login</span>
-      </a>
+  <nav class="site-nav site-nav--overlay" aria-label="Main">
+    <a class="site-nav__brand" href="/" title="Public AI Switzerland">
+      <img src="assets/public-ai-logo.png" alt="Public AI Logo" class="site-nav__logo">
+    </a>
+    <div class="site-nav__cluster">
+      <div class="site-nav__lang" data-lang-switcher></div>
+      <div class="site-nav__links" id="site-menu">
+        <a href="about.html" class="site-nav__link">About</a>
+        <a href="index.html#join" class="site-nav__link">Join</a>
+        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Login</a>
+      </div>
+      <button
+        class="site-nav__toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="site-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </nav>
 
@@ -58,6 +70,7 @@
       </div>
     </section>
   </main>
+  <script src="assets/lang-switcher.js"></script>
+  <script src="assets/site-nav.js"></script>
 </body>
 </html>
-

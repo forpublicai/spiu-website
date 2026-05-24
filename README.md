@@ -4,6 +4,8 @@ Source for [publicai.ch](https://publicai.ch) — the marketing site for Public 
 
 This is a **static site**: HTML, [Picnic CSS](https://picnicss.com/) (CDN), and custom styles in `assets/style.css`. No build step.
 
+**Languages:** English at the site root (`/`), with Swiss German (`/de/`), French (`/fr/`), and Italian (`/it/`) copies of the main pages. A language switcher in the nav links between locales.
+
 ## Local preview
 
 ```bash

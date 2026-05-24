@@ -4,41 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Public AI Switzerland — Customer-Owned Cooperative for Affordable AI</title>
+  <link rel="alternate" hreflang="en" href="https://publicai.ch/">
+  <link rel="alternate" hreflang="de-CH" href="https://publicai.ch/de/">
+  <link rel="alternate" hreflang="fr-CH" href="https://publicai.ch/fr/">
+  <link rel="alternate" hreflang="it-CH" href="https://publicai.ch/it/">
+  <link rel="alternate" hreflang="x-default" href="https://publicai.ch/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7/picnic.min.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
   <link href="assets/style.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/favicon.ico">
 </head>
 <body style="margin: 0; padding: 0;">
-  <nav class="transparent" style="background: transparent !important; background-color: transparent !important;">
-    <div class="brand">
-      <a href="/" title="Public AI Switzerland">
-        <img src="assets/public-ai-logo.png" alt="Public AI Logo" class="logo">
-      </a>
-    </div>
-    <button
-      class="nav-toggle"
-      type="button"
-      aria-label="Toggle navigation menu"
-      aria-expanded="false"
-      aria-controls="site-menu"
-    >
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <div class="menu" id="site-menu">
-      <a href="#"
-         class="pseudo button"
-         style="opacity: 0.55; pointer-events: none; cursor: not-allowed;">
-        <span class="text">About</span>
-      </a>
-      <a href="#join" class="pseudo button icon-ok"><span class="text">Join</span></a>
-      <a href="#"
-         class="pseudo button"
-         style="opacity: 0.55; pointer-events: none; cursor: not-allowed;">
-        <span class="text">Login</span>
-      </a>
+  <nav class="site-nav site-nav--overlay" aria-label="Main">
+    <a class="site-nav__brand" href="/" title="Public AI Switzerland">
+      <img src="assets/public-ai-logo.png" alt="Public AI Logo" class="site-nav__logo">
+    </a>
+    <div class="site-nav__cluster">
+      <div class="site-nav__lang" data-lang-switcher></div>
+      <div class="site-nav__links" id="site-menu">
+        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">About</a>
+        <a href="#join" class="site-nav__link">Join</a>
+        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Login</a>
+      </div>
+      <button
+        class="site-nav__toggle"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="site-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </nav>
   <main>
@@ -46,8 +44,8 @@
       <div class="content">
         <h1>AI made to Swiss standards</h1>
         <p class="dynamic-numbers">
-          Join <strong>35,132 citizens</strong> and
-          <strong>1,439 developers</strong> using
+          Join <strong>47,255 citizens</strong> and
+          <strong>1,751 developers</strong> using
           <a href="https://www.swiss-ai.org/apertus" target="_blank">Apertus</a>
         </p>
       </div>
@@ -294,7 +292,7 @@
         <h2>Already Serving Switzerland</h2>
         <div class="stats-grid">
           <div class="stat-card">
-            <div class="stat-number">35,000+</div>
+            <div class="stat-number">45,000+</div>
             <div class="stat-label">Users Registered</div>
           </div>
           <div class="stat-card">
@@ -469,22 +467,15 @@
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const OPEN_COLLECTIVE_CHECKOUT_URL = 'https://opencollective.com/datalets/projects/public-ai-switzerland/contribute/founding-membership-99202/checkout?interval=year&amount=100&contributeAs=me';
-      const nav = document.querySelector('nav');
-      const navToggle = document.querySelector('.nav-toggle');
 
       document.querySelectorAll('.js-join-link').forEach((link) => {
         link.setAttribute('href', OPEN_COLLECTIVE_CHECKOUT_URL);
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer');
       });
-
-      if (nav && navToggle) {
-        navToggle.addEventListener('click', () => {
-          const isOpen = nav.classList.toggle('nav-open');
-          navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        });
-      }
     });
   </script>
+  <script src="assets/lang-switcher.js"></script>
+  <script src="assets/site-nav.js"></script>
 </body>
 </html>
