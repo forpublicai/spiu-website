@@ -566,6 +566,21 @@ main section + section:not(.founding-member-cta)::before {
   opacity: 0.95;
 }
 
+.founding-member-cta .membership-card .cta-disclaimer {
+  margin: 0.65em 0 0;
+  font-size: 0.65em;
+  line-height: 1.45;
+  text-align: center;
+  opacity: 0.85;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.founding-member-cta .membership-card .cta-disclaimer a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .founding-member-cta .cta-membership-tiers {
   margin-top: var(--spacing-md);
   padding-top: var(--spacing-md);
