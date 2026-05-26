@@ -28,10 +28,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: "Checkout"
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
+      - name: "Confirm"
+        run: "echo Uploading to ${{ secrets.DEPLOY_REMOTE_HOST }}"
       - name: "Deploy"
         uses: milanmk/actions-file-deployer@master
         with:
