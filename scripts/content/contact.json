@@ -5,13 +5,13 @@
     {
       "title_key": "Allgemeine Anfragen",
       "desc_key": "Für Fragen zur Genossenschaft, zu Apertus oder zur Zusammenarbeit.",
-      "action": "mailto:hello@publicai.co",
+      "action": "mailto:hello@publicai.ch",
       "action_label_key": "Nachricht senden"
     },
     {
       "title_key": "Presse & Partnerschaften",
       "desc_key": "Für Medienanfragen und Partnerschaftsgespräche.",
-      "action": "mailto:hello@publicai.co",
+      "action": "mailto:hello@publicai.ch",
       "action_label_key": "Kontakt aufnehmen"
     },
     {
