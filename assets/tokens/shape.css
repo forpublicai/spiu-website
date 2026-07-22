@@ -5,7 +5,7 @@
   --radius-hero: 30px;
   --radius-nav-sheet: 20px;
   --max-width: 1500px;
-  --max-width-content: 960px;
+  --max-width-content: 52rem;
   --section-padding-y: clamp(5rem, 8vw, 7.5rem);
   --section-padding-x: 1rem;
 

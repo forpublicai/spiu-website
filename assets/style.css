@@ -748,12 +748,12 @@ main section.flex {
 
 main section > .content {
   width: 90%;
-  max-width: var(--max-width);
+  max-width: var(--max-width-content);
   margin: 0 auto;
 }
 
 main section .content {
-  max-width: var(--max-width);
+  max-width: var(--max-width-content);
   margin: 0 auto;
   padding: 0 var(--section-padding-x);
 }
@@ -819,7 +819,7 @@ main section + section:not(.founding-member-cta)::before {
    Statutes document
    ======================================================== */
 .statutes-doc .content {
-  max-width: 52rem;
+  max-width: var(--max-width-content);
 }
 
 .statutes-doc__locale-note {
@@ -956,7 +956,7 @@ main section + section:not(.founding-member-cta)::before {
 }
 
 .founding-member-cta .content {
-  max-width: 900px;
+  max-width: var(--max-width-content);
   margin: 0 auto;
   padding: 0 var(--spacing-md);
   position: relative;
@@ -1006,14 +1006,14 @@ main section + section:not(.founding-member-cta)::before {
 
 .founding-member-cta .benefits-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
   margin-top: var(--spacing-md);
 }
 
 .founding-member-cta .benefit-item {
   background: rgba(0, 0, 0, 0.05);
-  padding: var(--spacing-md);
+  padding: 1.25rem;
   border-radius: var(--radius-card);
   border: none;
   text-align: left;
@@ -1062,7 +1062,7 @@ main section + section:not(.founding-member-cta)::before {
 }
 
 .founding-member-cta .cta-membership-tiers h3 {
-  font-size: clamp(0.95em, 1.5vw, 1.1em);
+  font-size: clamp(1.1em, 1.8vw, 1.3em);
   color: var(--color-text);
   margin-bottom: var(--spacing-sm);
   text-transform: uppercase;
@@ -1113,11 +1113,12 @@ main section + section:not(.founding-member-cta)::before {
   line-height: 1;
 }
 
-.founding-member-cta .membership-card p {
+.founding-member-cta .membership-card p:not(.cta-disclaimer) {
   color: var(--color-text);
   margin-bottom: 0.75em;
-  line-height: 1.5;
-  font-size: 0.85em;
+  line-height: 1.7;
+  font-size: clamp(1em, 1.5vw, 1.2em);
+  opacity: 0.9;
 }
 
 .founding-member-cta .membership-card .button {
@@ -1447,7 +1448,7 @@ main section + section:not(.founding-member-cta)::before {
   align-items: stretch;
   gap: 0.5rem 1rem;
   margin: 0 auto;
-  max-width: 52rem;
+  max-width: var(--max-width-content);
 }
 
 .stat-strip--panel {
@@ -2030,7 +2031,7 @@ main section + section:not(.founding-member-cta)::before {
 
 .site-footer__content {
   width: 90%;
-  max-width: var(--max-width);
+  max-width: var(--max-width-content);
   margin: 0 auto;
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
@@ -2506,7 +2507,7 @@ main section + section:not(.founding-member-cta)::before {
 }
 
 .cta-band .content {
-  max-width: 720px;
+  max-width: var(--max-width-content);
   margin: 0 auto;
 }
 
