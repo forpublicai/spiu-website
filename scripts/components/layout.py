@@ -12,7 +12,6 @@ def esc(text: str) -> str:
 
 def subpage_header(
     title: str,
-    subtitle: str = "",
     prefix: str = "",
     image: str | None = None,
     asset_prefix: Callable[[str], str] | None = None,
@@ -24,13 +23,10 @@ def subpage_header(
         style_attr = f' style="--hero-background-image: url(\'/assets/{img_path}\');"'
         if "community-photos" in image:
             extra_class = " hero--custom-bg"
-    subtitle_html = (
-        f'\n        <p class="dynamic-numbers">{esc(subtitle)}</p>' if subtitle else ""
-    )
     return f"""    <header class="hero hero--subpage{extra_class}"{style_attr}>
       <div class="hero__media" aria-hidden="true"></div>
       <div class="content">
-        <h1>{esc(title)}</h1>{subtitle_html}
+        <h1>{esc(title)}</h1>
       </div>
     </header>"""
 

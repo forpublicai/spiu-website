@@ -157,9 +157,9 @@ def nav(overlay: bool = False, prefix: str = "") -> str:
       <div class="site-nav__links" id="site-menu">
         <a href="{p}about.html" class="site-nav__link">{t('Über uns')}</a>
         <a href="{p}news.html" class="site-nav__link">{t('News')}</a>
-        <a href="{p}join.html" class="site-nav__link js-join-link">{t('Mitmachen')}</a>
         <a href="{p}contact.html" class="site-nav__link">{t('Kontakt')}</a>
         <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">{t('Mitglieder-Login')}</a>
+        <a href="{p}join.html" class="site-nav__cta button button--primary js-join-link">{t('Anteil zeichnen')}</a>
       </div>
     </div>
   </nav>"""
@@ -207,7 +207,6 @@ def page_shell(
     prefix: str = "",
     extra_scripts: str = "",
     subpage_title: str | None = None,
-    subpage_subtitle: str = "",
     hero_image: str | None = None,
 ) -> str:
     use_overlay = overlay if overlay is not None else subpage_title is not None
@@ -215,7 +214,6 @@ def page_shell(
         body = (
             subpage_header(
                 subpage_title,
-                subpage_subtitle,
                 prefix,
                 hero_image,
                 asset_prefix,
@@ -328,12 +326,13 @@ def legacy_join_section() -> str:
 
 
 def legacy_compare_section() -> str:
+    logo = LOGO_BY_LOCALE.get(CURRENT_LOCALE, LOGO_BY_LOCALE["en"])
     return f"""    <section class="flex one" id="compare">
       <div class="content">
         <h2>{t('So vergleichen wir uns')}</h2>
         <div class="compare-grid">
           <div class="compare-card compare-card--ours">
-            <h3><img src="/assets/public-ai-logo.png" alt="Public AI Switzerland" class="compare-logo"></h3>
+            <h3><img src="/assets/{logo}" alt="Public AI Switzerland" class="compare-logo"></h3>
             <div class="compare-row"><span class="compare-label">{t('Kosten')}</span><span class="compare-value">CHF 100{t('/ Jahr')}</span></div>
             <div class="compare-row"><span class="compare-label">{t('Datenresidenz')}</span><span class="compare-value">{t('Schweiz')}</span></div>
             <div class="compare-row"><span class="compare-label">{t('Eigentum')}</span><span class="compare-value">{t('Genossenschaft, du bist Miteigentümer:in')}</span></div>
@@ -420,7 +419,7 @@ def index_body(prefix: str = "") -> str:
         <div class="hero-cta">
           <a href="join.html" class="button button--primary js-join-link">{t('Genossenschaftsanteil zeichnen →')}</a>
           <a href="https://chat.publicai.co/" class="button button--hero-outline" target="_blank" rel="noopener noreferrer">{t('Apertus kostenlos nutzen')}</a>
-          <a href="https://dialogue.publicai.ch" class="button button--hero-olive" target="_blank" rel="noopener noreferrer">{t('(Neu) Dem Schweizer Nationalen KI-Dialog beitreten')}</a>
+          <a href="https://dialogue.publicai.ch" class="button button--hero-olive hero-cta__dialogue" target="_blank" rel="noopener noreferrer">{t('(Neu) Dem Schweizer Nationalen KI-Dialog beitreten')}</a>
         </div>
       </div>
       <a href="#intro" class="hero-scroll-cue" aria-label="{esc(t('Nach unten scrollen'))}">&#8964;</a>
@@ -428,7 +427,7 @@ def index_body(prefix: str = "") -> str:
 
     <section class="flex one intro-section" id="intro">
       <div class="content">
-        <p class="larger">{t('Public AI Switzerland ist eine kundeneigene Genossenschaft, die in der Schweiz entwickelte KI, insbesondere Apertus, für Schweizer Einwohner:innen und Unternehmen zugänglich macht. Denk an Migros für KI.')}</p>
+        <p class="larger">{t('Public AI Switzerland ist eine kundeneigene Genossenschaft, die in der Schweiz entwickelte KI, insbesondere Apertus, für Schweizer Einwohner:innen und Unternehmen zugänglich macht.')}</p>
         <div class="stat-strip stat-strip--panel" id="stats">
           <div class="stat-strip__item">
             <span class="stat-strip__value stat-strip__value--accent">#1</span>
@@ -566,7 +565,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_join(t),
         prefix=prefix,
         subpage_title=t(load_join()["hero_title"]),
-        subpage_subtitle=t(load_join()["hero_subtitle"]),
         hero_image=hero_backgrounds.get("join.html"),
     )
 
@@ -606,7 +604,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_news(t, CURRENT_LOCALE),
         prefix=prefix,
         subpage_title=t(news_data["hero_title"]),
-        subpage_subtitle=t(news_data["hero_subtitle"]),
         hero_image=hero_backgrounds.get("news.html"),
     )
 
@@ -618,7 +615,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_contact(t),
         prefix=prefix,
         subpage_title=t(contact_data["hero_title"]),
-        subpage_subtitle=t(contact_data["hero_subtitle"]),
         hero_image=hero_backgrounds.get("contact.html"),
     )
 
@@ -630,7 +626,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_terms(t),
         prefix=prefix,
         subpage_title=t(terms_data["hero_title"]),
-        subpage_subtitle=t(terms_data["hero_subtitle"]),
     )
 
     privacy_data = load_privacy()
@@ -641,7 +636,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_privacy(t),
         prefix=prefix,
         subpage_title=t(privacy_data["hero_title"]),
-        subpage_subtitle=t(privacy_data["hero_subtitle"]),
     )
 
     pages["statuten.html"] = page_shell(
@@ -651,9 +645,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         statuten_section(),
         prefix=prefix,
         subpage_title=t("Statuten"),
-        subpage_subtitle=t(
-            "Genossenschaft Public AI Switzerland · Entwurf Juli 2026 · Gründung in Vorbereitung"
-        ),
     )
 
     fonds_data = load_fonds()
@@ -664,7 +655,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_fonds(t),
         prefix=prefix,
         subpage_title=t(fonds_data["hero_title"]),
-        subpage_subtitle=t(fonds_data["hero_subtitle"]),
     )
 
     impressum_data = load_impressum()
@@ -675,7 +665,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_impressum(t),
         prefix=prefix,
         subpage_title=t(impressum_data["hero_title"]),
-        subpage_subtitle=t(impressum_data["hero_subtitle"]),
     )
 
     about_data = load_about()
@@ -686,7 +675,6 @@ def build_pages(prefix: str = "") -> dict[str, str]:
         render_about(t, prefix, asset_prefix),
         prefix=prefix,
         subpage_title=t(about_data["hero_title"]),
-        subpage_subtitle=t(about_data["hero_subtitle"]),
         hero_image="assets/IMG_2517.jpg",
     )
 

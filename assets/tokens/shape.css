@@ -19,9 +19,9 @@
   --spacing-xl: 5rem;
 
   --nav-control-height: 1.75rem;
-  --site-nav-font-size: 0.86em;
+  --site-nav-font-size: 0.98em;
   --site-nav-link-padding-y: 0.52em;
-  --site-nav-link-padding-x: 0.7em;
+  --site-nav-link-padding-x: 0.95em;
   --site-nav-logo-height: 35px;
   --site-nav-row-height: var(--site-nav-logo-height);
   --site-nav-bar-height: calc(
