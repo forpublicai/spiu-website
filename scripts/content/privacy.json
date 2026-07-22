@@ -1,0 +1,51 @@
+{
+  "hero_title": "Datenschutzerklärung",
+  "hero_subtitle": "Nach dem revidierten Schweizer Datenschutzgesetz (revDSG) · Stand Juli 2026",
+  "notice_key": "Diese Datenschutzerklärung ist ein Entwurf und wird vorbehaltlich der formellen Gründung der Genossenschaft aktualisiert.",
+  "sections": [
+    {
+      "heading_key": "1. Verantwortliche Stelle",
+      "body_key": "Public AI Switzerland ist für die Bearbeitung deiner Personendaten verantwortlich. Kontakt: hello@publicai.co"
+    },
+    {
+      "heading_key": "2. Grundsatz",
+      "body_key": "Wir bearbeiten Personendaten im Einklang mit dem revidierten Schweizer Datenschutzgesetz (revDSG)."
+    },
+    {
+      "heading_key": "3. Welche Daten wir bearbeiten",
+      "body_key": "Mitglieds- und Zeichnungsdaten, Kontaktformular-Angaben sowie technische Nutzungsdaten von Apertus."
+    },
+    {
+      "heading_key": "4. Zwecke der Bearbeitung",
+      "body_key": "Verwaltung der Mitgliedschaft, Betrieb der Dienste, Kommunikation und Erfüllung gesetzlicher Pflichten."
+    },
+    {
+      "heading_key": "5. Rechtsgrundlagen",
+      "body_key": "Mitgliedschaftsverhältnis, berechtigtes Interesse an sicherem Betrieb, gesetzliche Pflichten und Einwilligung, wo nötig."
+    },
+    {
+      "heading_key": "6. Hosting und Apertus",
+      "body_key": "Dienste und Daten werden in der Schweiz gehostet. Wir verkaufen keine Personendaten."
+    },
+    {
+      "heading_key": "7. Weitergabe an Dritte",
+      "body_key": "Daten werden nur weitergegeben, wenn dies für den Betrieb nötig oder gesetzlich vorgeschrieben ist."
+    },
+    {
+      "heading_key": "8. Aufbewahrung",
+      "body_key": "Wir bewahren Daten nur so lange auf, wie es für die genannten Zwecke oder gesetzliche Fristen nötig ist."
+    },
+    {
+      "heading_key": "9. Deine Rechte",
+      "body_key": "Du hast das Recht auf Auskunft, Berichtigung, Löschung und Herausgabe deiner Daten. Kontakt: hello@publicai.co"
+    },
+    {
+      "heading_key": "10. Cookies und Analysen",
+      "body_key": "Wir verwenden nur technisch notwendige Cookies und datenschutzfreundliche Analysen."
+    },
+    {
+      "heading_key": "11. Datenschutzkontakt",
+      "body_key": "Bei Fragen: hello@publicai.co"
+    }
+  ]
+}

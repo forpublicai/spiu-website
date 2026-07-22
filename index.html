@@ -3,121 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Public AI Switzerland — Customer-Owned Cooperative for Affordable AI</title>
+  <title>Public AI Switzerland</title>
+  <meta name="description" content="Public AI Switzerland is a cooperative that makes Swiss AI accessible and places it in the hands of its members.">
+  <link rel="canonical" href="https://publicai.ch/">
   <link rel="alternate" hreflang="en" href="https://publicai.ch/">
   <link rel="alternate" hreflang="de-CH" href="https://publicai.ch/de/">
   <link rel="alternate" hreflang="fr-CH" href="https://publicai.ch/fr/">
   <link rel="alternate" hreflang="it-CH" href="https://publicai.ch/it/">
+  <link rel="alternate" hreflang="rm-CH" href="https://publicai.ch/rm/">
   <link rel="alternate" hreflang="x-default" href="https://publicai.ch/">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7/picnic.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Overpass+Mono&family=Overpass:wght@700&family=Public+Sans:wght@300;400;600&family=Roboto+Flex:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/nb-international.css">
   <link href="assets/style.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/favicon.ico">
 </head>
 <body style="margin: 0; padding: 0;">
   <nav class="site-nav site-nav--overlay" aria-label="Main">
     <a class="site-nav__brand" href="/" title="Public AI Switzerland">
-      <img src="assets/public-ai-logo.png" alt="Public AI Logo" class="site-nav__logo">
+      <img src="assets/logo-switzerland-en.png" alt="Public AI Switzerland" class="site-nav__logo">
     </a>
     <div class="site-nav__cluster">
       <div class="site-nav__lang" data-lang-switcher></div>
-      <div class="site-nav__links" id="site-menu">
-        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">About</a>
-        <a href="#join" class="site-nav__link">Join</a>
-        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Login</a>
-      </div>
-      <button
-        class="site-nav__toggle"
-        type="button"
-        aria-label="Toggle navigation menu"
-        aria-expanded="false"
-        aria-controls="site-menu"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="site-nav__toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span><span></span>
       </button>
+      <button class="site-nav__backdrop" type="button" aria-label="Close menu" tabindex="-1"></button>
+      <div class="site-nav__links" id="site-menu">
+        <a href="/about.html" class="site-nav__link">About</a>
+        <a href="/news.html" class="site-nav__link">News</a>
+        <a href="/join.html" class="site-nav__link js-join-link">Join</a>
+        <a href="/contact.html" class="site-nav__link">Contact</a>
+        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Member Login</a>
+      </div>
     </div>
   </nav>
-  <main>
+<main>
     <header class="hero">
+      <div class="hero__media" aria-hidden="true"></div>
       <div class="content">
-        <h1>AI made to Swiss standards</h1>
-        <p class="dynamic-numbers">
-          Join <strong>47,255 citizens</strong> and
-          <strong>1,751 developers</strong> using
-          <a href="https://www.swiss-ai.org/apertus" target="_blank">Apertus</a>
-        </p>
+        <h1>The world's first cooperative for AI</h1>
+        <p class="dynamic-numbers">Join <strong>52'293</strong> registered users and <strong>2'166</strong> developers using Swiss AI</p>
+        <div class="hero-cta">
+          <a href="join.html" class="button button--primary js-join-link">Buy a cooperative share →</a>
+          <a href="https://chat.publicai.co/" class="button button--hero-outline" target="_blank" rel="noopener noreferrer">Use Apertus for free</a>
+          <a href="https://dialogue.publicai.ch" class="button button--hero-olive" target="_blank" rel="noopener noreferrer">(New) Join the Swiss National AI Dialogue</a>
+        </div>
       </div>
-      <a href="#intro" class="hero-scroll-cue" aria-label="Scroll down">
-        &#8964;
-      </a>
+      <a href="#intro" class="hero-scroll-cue" aria-label="Scroll down">&#8964;</a>
     </header>
 
     <section class="flex one intro-section" id="intro">
       <div class="content">
-        <h2>The world's first cooperative for AI</h2>
-        <p class="larger">
-          Public AI Switzerland is a customer-owned cooperative that
-          distributes Swiss-made AI, especially Apertus, to Swiss
-          residents and companies. Think Migros for AI.
-        </p>
+        <p class="larger">Public AI Switzerland is a customer-owned cooperative that distributes Swiss-made AI, especially Apertus, to Swiss residents and companies. Think Migros for AI.</p>
+        <div class="stat-strip stat-strip--panel" id="stats">
+          <div class="stat-strip__item">
+            <span class="stat-strip__value stat-strip__value--accent">#1</span>
+            <span class="stat-strip__label">Apertus deployer worldwide</span>
+          </div>
+          <div class="stat-strip__item">
+            <span class="stat-strip__value">52'293</span>
+            <span class="stat-strip__label">registered users</span>
+          </div>
+          <div class="stat-strip__item">
+            <span class="stat-strip__value">2'166</span>
+            <span class="stat-strip__label">developers building on our API</span>
+          </div>
+          <div class="stat-strip__item">
+            <span class="stat-strip__value">9.58B</span>
+            <span class="stat-strip__label">of tokens processed</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="founding-member-cta" id="join">
+    <section class="founding-member-cta" id="join-legacy">
       <div class="content">
         <h2>Our plan: AI owned by the people</h2>
-        <p class="cta-subtitle">
-          Big Tech's control over AI threatens our jobs and our society.
-          It's time for a new model, one we collectively own and control.
-          <b>
-          We have a plan for organizing AI around local control, democratic governance, and shared benefit. 
-          Join us today as a Founding Member to get involved.
-          </b>
-        </p>
+        <p class="cta-subtitle">AI is changing our jobs, our economy, and our society. We have a plan for organizing AI around local control, shared benefit, and democratic governance. Join us today as a Founding Member to get involved.</p>
         <div class="cta-membership-tiers">
           <h3>BECOME A FOUNDING MEMBER:</h3>
           <div class="membership-tiers">
             <div class="membership-card">
               <div class="membership-price">CHF 100</div>
-              <p>Founding Membership in Public AI
-                Switzerland</p>
-              <a href="#"
-                 class="button js-join-link">JOIN AND CLAIM MEMBERSHIP</a>
-              <p class="cta-disclaimer">
-                <strong>Note:</strong> Public AI Switzerland is still being set up.
-                For now, Founding Member dues are held in trust by
-                <a href="https://datalets.ch" target="_blank" rel="noopener noreferrer">Datalets.ch</a>,
-                a Swiss nonprofit association. Founding Member benefits will be
-                distributed once Public AI Switzerland officially launches.
-              </p>
+              <p>Founding Membership in Public AI Switzerland</p>
+              <a href="#" class="button js-join-link">JOIN AND CLAIM MEMBERSHIP</a>
+              <p class="cta-disclaimer"><strong>Note:</strong> Public AI Switzerland is still being set up and benefits may change. For now, Founding Member dues are held in trust by <a href="https://datalets.ch" target="_blank" rel="noopener noreferrer">Datalets.ch</a>, a Swiss nonprofit association. Purchase entitles an individual to two shares of CHF 50 each in the cooperative. Payment via TWINT and RaiseNow will be available soon.</p>
             </div>
           </div>
         </div>
         <div class="cta-benefits">
           <h3>FOUNDING MEMBER BENEFITS</h3>
           <div class="benefits-grid">
-            <div class="benefit-item">
-              <div class="benefit-title">Upgraded Chat Experience</div>
-              <div class="benefit-desc">
-                Access larger context windows, file and image uploads,
-                and group chats in an enhanced Apertus experience built
-                for serious day-to-day use.
-              </div>
+            <div class="benefit-item"><div class="benefit-title">Upgraded Chat Experience</div><div class="benefit-desc">Access larger context windows, file and image uploads, and group chats in an enhanced Apertus experience.</div></div>
+            <div class="benefit-item"><div class="benefit-title">Stay on the Cutting Edge</div><div class="benefit-desc">Access a set of new AI tools every month, curated from our community and technology partners.</div></div>
+            <div class="benefit-item"><div class="benefit-title">Limited Edition Physical Zine</div><div class="benefit-desc">Receive a limited physical copy of the Own Our Own (O3) Plan, plus a membership certificate.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex one" id="audiences">
+      <div class="content">
+        <div class="product-comparison">
+          <div class="product-card">
+            <h3>For individuals</h3>
+            <p class="product-desc">A friendly chat interface for writing, research and everyday life, no technical knowledge required.</p>
+            <div class="audience-actions">
+              <a class="button button--dark" href="https://chat.publicai.co/" target="_blank" rel="noopener noreferrer">Open chat</a>
             </div>
-            <div class="benefit-item">
-              <div class="benefit-title">Stay on the Cutting Edge</div>
-              <div class="benefit-desc">
-                Access a set of new AI tools every month, curated and sourced from our community and technology partners.
-              </div>
-            </div>
-            <div class="benefit-item">
-              <div class="benefit-title">Limited Edition Physical Zine</div>
-              <div class="benefit-desc">
-                Receive a limited physical copy of the Own Our Own (O3) Plan, plus a
-                membership certificate
-              </div>
+          </div>
+          <div class="product-card">
+            <h3>For businesses and developers</h3>
+            <p class="product-desc">A complete API for text generation, embeddings and retrieval.</p>
+            <div class="audience-actions">
+              <a class="button button--dark" href="https://platform.publicai.co/docs" target="_blank" rel="noopener noreferrer">Read the docs</a>
             </div>
           </div>
         </div>
@@ -129,87 +130,47 @@
         <h2>A Swiss tradition, continued</h2>
         <div class="timeline-layout">
           <div class="timeline-sidebar">
-            <p>
-              Every era of industrial change, Switzerland has responded
-              the same way: with cooperatives. Hover over each era to
-              learn more.
-            </p>
+            <p>Every era of industrial change, Switzerland has responded the same way: with cooperatives. Hover over each era to learn more.</p>
           </div>
           <div class="timeline">
             <div class="timeline__item">
-              <div class="timeline__marker">
-                <span class="timeline__year">1899</span>
-              </div>
+              <div class="timeline__marker"><span class="timeline__year">1899</span></div>
               <div class="timeline__body">
-                <img src="assets/logo-raiffeisen.png"
-                     alt="Raiffeisen" class="timeline__logo">
+                <img src="/assets/logo-raiffeisen.png" alt="Raiffeisen" class="timeline__logo">
                 <p class="timeline__era">Banking for the people</p>
-                <p class="timeline__detail">
-                  When banks served cities but not farmers, Swiss
-                  communities pooled their savings and governed their
-                  own credit.
-                </p>
+                <p class="timeline__detail">When banks served cities but not farmers, Swiss communities pooled their savings and governed their own credit.</p>
               </div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__marker">
-                <span class="timeline__year">1925</span>
-              </div>
+              <div class="timeline__marker"><span class="timeline__year">1925</span></div>
               <div class="timeline__body">
-                <img src="assets/logo-migros.png"
-                     alt="Migros" class="timeline__logo">
+                <img src="/assets/logo-migros.png" alt="Migros" class="timeline__logo">
                 <p class="timeline__era">Fair access to essentials</p>
-                <p class="timeline__detail">
-                  When middlemen inflated food prices, Gottlieb
-                  Duttweiler drove a truck to the people. Today Migros
-                  is Switzerland's largest retailer — still a
-                  cooperative.
-                </p>
+                <p class="timeline__detail">When middlemen inflated food prices, Gottlieb Duttweiler drove a truck to the people. Today Migros is Switzerland's largest retailer, still a cooperative.</p>
               </div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__marker">
-                <span class="timeline__year">1941</span>
-              </div>
+              <div class="timeline__marker"><span class="timeline__year">1941</span></div>
               <div class="timeline__body">
-                <img src="assets/logo-coop.png"
-                     alt="Coop" class="timeline__logo">
+                <img src="/assets/logo-coop.png" alt="Coop" class="timeline__logo">
                 <p class="timeline__era">Consumer solidarity</p>
-                <p class="timeline__detail">
-                  When wartime scarcity threatened households, consumer
-                  cooperatives merged into a national force, putting
-                  purchasing power back in members' hands.
-                </p>
+                <p class="timeline__detail">When wartime scarcity threatened households, consumer cooperatives merged into a national force, putting purchasing power back in members' hands.</p>
               </div>
             </div>
             <div class="timeline__item">
-              <div class="timeline__marker">
-                <span class="timeline__year">1997</span>
-              </div>
+              <div class="timeline__marker"><span class="timeline__year">1997</span></div>
               <div class="timeline__body">
-                <img src="assets/logo-mobility.png"
-                     alt="Mobility" class="timeline__logo">
+                <img src="/assets/logo-mobility.png" alt="Mobility" class="timeline__logo">
                 <p class="timeline__era">Shared infrastructure</p>
-                <p class="timeline__detail">
-                  When private car ownership proved wasteful,
-                  Switzerland pioneered cooperative car-sharing — now
-                  230,000 members strong.
-                </p>
+                <p class="timeline__detail">When private car ownership proved wasteful, Switzerland pioneered cooperative car-sharing, now 230'000 members strong.</p>
               </div>
             </div>
             <div class="timeline__item timeline__item--highlight">
-              <div class="timeline__marker">
-                <span class="timeline__year">2025</span>
-              </div>
+              <div class="timeline__marker"><span class="timeline__year">2025</span></div>
               <div class="timeline__body">
-                <img src="assets/public-ai-logo.png"
-                     alt="Public AI Switzerland" class="timeline__logo">
+                <img src="/assets/public-ai-logo.png" alt="Public AI Switzerland" class="timeline__logo">
                 <p class="timeline__era">Collective intelligence</p>
-                <p class="timeline__detail">
-                  When AI became critical infrastructure controlled by
-                  a handful of foreign corporations, Switzerland did
-                  what it has always done: built a cooperative.
-                </p>
+                <p class="timeline__detail">When AI became critical infrastructure controlled by a handful of foreign corporations, Switzerland did what it has always done: built a cooperative.</p>
               </div>
             </div>
           </div>
@@ -222,260 +183,90 @@
         <h2>How we compare</h2>
         <div class="compare-grid">
           <div class="compare-card compare-card--ours">
-            <h3><img src="assets/public-ai-logo.png" alt="Public AI Switzerland" class="compare-logo"></h3>
-            <div class="compare-row">
-              <span class="compare-label">Cost</span>
-              <span class="compare-value">CHF 100 / year</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Data residency</span>
-              <span class="compare-value">Switzerland</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Ownership</span>
-              <span class="compare-value">Cooperative — you co-own it</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Governance</span>
-              <span class="compare-value">One member, one vote</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Surplus</span>
-              <span class="compare-value">Reinvested for members</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Source code</span>
-              <span class="compare-value">Open source</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Model</span>
-              <span class="compare-value">Apertus (Swiss-made, open)</span>
-            </div>
+            <h3><img src="/assets/public-ai-logo.png" alt="Public AI Switzerland" class="compare-logo"></h3>
+            <div class="compare-row"><span class="compare-label">Cost</span><span class="compare-value">CHF 100/ year</span></div>
+            <div class="compare-row"><span class="compare-label">Data residency</span><span class="compare-value">Switzerland</span></div>
+            <div class="compare-row"><span class="compare-label">Ownership</span><span class="compare-value">Cooperative, you co-own it</span></div>
+            <div class="compare-row"><span class="compare-label">Governance</span><span class="compare-value">One member, one vote</span></div>
+            <div class="compare-row"><span class="compare-label">Surplus</span><span class="compare-value">Reinvested for members</span></div>
+            <div class="compare-row"><span class="compare-label">Source code</span><span class="compare-value">Open source</span></div>
+            <div class="compare-row"><span class="compare-label">Model</span><span class="compare-value">Apertus (Swiss-made, open)</span></div>
           </div>
           <div class="compare-card compare-card--theirs">
             <h3>ChatGPT (OpenAI)</h3>
-            <div class="compare-row">
-              <span class="compare-label">Cost</span>
-              <span class="compare-value">CHF 240 / year</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Data residency</span>
-              <span class="compare-value">United States</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Ownership</span>
-              <span class="compare-value">Corporate — shareholders own it</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Governance</span>
-              <span class="compare-value">Board of directors</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Surplus</span>
-              <span class="compare-value">Shareholder dividends</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Source code</span>
-              <span class="compare-value">Closed</span>
-            </div>
-            <div class="compare-row">
-              <span class="compare-label">Model</span>
-              <span class="compare-value">GPT (proprietary)</span>
-            </div>
+            <div class="compare-row"><span class="compare-label">Cost</span><span class="compare-value">CHF 240/ year</span></div>
+            <div class="compare-row"><span class="compare-label">Data residency</span><span class="compare-value">United States</span></div>
+            <div class="compare-row"><span class="compare-label">Ownership</span><span class="compare-value">Corporate, shareholders own it</span></div>
+            <div class="compare-row"><span class="compare-label">Governance</span><span class="compare-value">Board of directors</span></div>
+            <div class="compare-row"><span class="compare-label">Surplus</span><span class="compare-value">Shareholder dividends</span></div>
+            <div class="compare-row"><span class="compare-label">Source code</span><span class="compare-value">Closed</span></div>
+            <div class="compare-row"><span class="compare-label">Model</span><span class="compare-value">GPT (proprietary)</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="flex one" id="achievements">
+    <section class="flex one distribution-cta" id="dialogue">
       <div class="content">
-        <h2>Already Serving Switzerland</h2>
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-number">45,000+</div>
-            <div class="stat-label">Users Registered</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">Trillions</div>
-            <div class="stat-label">Tokens Served</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">#1</div>
-            <div class="stat-label">Global Deployer of Apertus</div>
+        <h2>Speak up in the Swiss National AI Dialogue</h2>
+        <p class="larger">Public AI Switzerland is hosting a national dialogue on Switzerland's AI policy and infrastructure. Take part and help shape how AI serves the public.</p>
+        <p class="distribution-cta__actions"><a href="https://dialogue.publicai.ch" class="button" target="_blank" rel="noopener noreferrer">Join the dialogue</a></p>
+        <div class="dialogue-partners" aria-label="Partners of the Swiss National AI Dialogue">
+          <p class="dialogue-partners__label">In collaboration with:</p>
+          <div class="dialogue-partners__logos">
+          <img src="assets/partners/public-ai.png" alt="Public AI" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/change-org.svg" alt="Change.org" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/eth-ai-center.png" alt="ETH AI Center" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/epfl-ai-center.png" alt="EPFL AI Center" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/apertus.png" alt="Apertus" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/collective-intelligence-project.png" alt="Collective Intelligence Project" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/swiss-ai-weeks.png" alt="Swiss {ai} Weeks" class="dialogue-partners__logo" loading="lazy">
+          <img src="assets/partners/metagov.png" alt="Metagov" class="dialogue-partners__logo" loading="lazy">
           </div>
         </div>
-        <p>
-          Hundreds of apps, including
-          <a href="https://www.liip.ch/en/blog/zuricitygpt-oss-version-using-only-open-source-models" target="_blank">ZüriCityGPT OSS</a>
-          and <a href="https://siliconlovefield.bb.dribdat.cc" target="_blank">Dribdat</a>
-          are being built with our API already. 
-          An official <a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank">Hugging Face</a>
-          enabling all kinds of integrations is available.
-          Active usage from universities, commercial research groups, and a growing user community attest to the appeal of the solution. 
-        </p>
-      </div>
-    </section>
-
-    <section class="flex one" id="product">
-      <div class="content">
-        <h2>Two ways to use Public AI</h2>
-        <div class="product-comparison">
-          <div class="product-card">
-            <h3>For Everyone</h3>
-            <p class="product-desc">
-              A friendly chat interface for writing, research, and daily
-              tasks—no technical skills needed. Customize your system
-              prompt and let built-in memory personalize your experience.
-            </p>
-            <p class="product-link">
-              <a href="https://chat.publicai.co/" target="_blank">Try the Chat</a>
-            </p>
-            <p class="product-source">
-              <a href="https://github.com/forpublicai/chat.publicai.co" target="_blank">Source Code</a>
-            </p>
-          </div>
-          <div class="product-card">
-            <h3>For Developers</h3>
-            <p class="product-desc">
-              A full API for text generation, embeddings, and retrieval.
-              Compatible with the OpenAI API and LiteLLM—switch in one
-              line of code.
-            </p>
-            <p class="product-link">
-              <a href="https://platform.publicai.co/docs" target="_blank">Read the Docs</a>
-            </p>
-            <p class="product-source">
-              <a href="https://github.com/forpublicai/platform.publicai.co" target="_blank">Source Code</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="flex one distribution-cta" id="distribution">
-      <div class="content">
-        <h2>Building AI tools?</h2>
-        <p class="larger">
-          Startups and companies can distribute their AI tools, systems,
-          and agents through our Swiss-hosted cooperative network.
-        </p>
-        <p class="distribution-cta__actions">
-          <a
-            href="mailto:hello@publicai.co?subject=Distribution%20Partnership%20Inquiry"
-            class="button"
-          >
-            Talk To Us About Distribution
-          </a>
-        </p>
       </div>
     </section>
 
     <section class="flex one" id="faq">
       <div class="content">
-        <h2>Frequently Asked Questions</h2>
+        <h2>Frequently asked questions</h2>
         <div class="faq-list">
-          <details class="faq-item">
-            <summary>Why create a Swiss AI cooperative?</summary>
-            <p>
-              Switzerland increasingly relies on foreign AI platforms
-              governed from Silicon Valley or Shenzhen, optimized for
-              global scale rather than local norms, industries, and
-              communities. These platforms have opaque governance and
-              rising prices. It's time for a new model—one we
-              collectively own and control, built on Switzerland's rich
-              tradition of cooperative enterprises.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>What's a co-op?</summary>
-            <p>
-              A cooperative, or co-op, is a business owned and
-              democratically controlled by its members. Public AI
-              Switzerland is owned by its membership base of developers,
-              institutions, supporters, and workers. Think Migros, Coop,
-              Raiffeisen, or Mobility—the same proven model applied to AI
-              infrastructure.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>How does this compare to ChatGPT/OpenAI?</summary>
-            <p>
-              Instead of paying CHF 240 a year for ChatGPT, members pay
-              CHF 100 to own a piece of their own AI. Heavier API users
-              pay transparent overages priced below commercial APIs. All
-              data stays in Switzerland, and any surplus is reinvested
-              into capacity, lower prices, or community programs—not
-              shareholder profits.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>Is the platform already live?</summary>
-            <p>
-              Yes! We are the primary global deployer of Apertus, with
-              35,000+ users and trillions of tokens served. You can try
-              it today at
-              <a href="https://chat.publicai.co" target="_blank">chat.publicai.co</a>
-              or access the API at
-              <a href="https://platform.publicai.co/docs" target="_blank">platform.publicai.co/docs</a>.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>Who can join?</summary>
-            <p>
-              Public AI Switzerland is open to Swiss residents and
-              companies. We welcome developers, institutions, researchers,
-              and supporters who want to collectively own and shape Swiss
-              AI infrastructure.
-            </p>
-          </details>
-          <details class="faq-item">
-            <summary>Is this a crypto/blockchain thing?</summary>
-            <p>
-              No. Public AI Switzerland is a traditional cooperative
-              enterprise, following the proven Swiss cooperative model.
-            </p>
-          </details>
+          <details class="faq-item"><summary>How does membership work?</summary><p>Membership in Public AI Switzerland means that you are a co-owner with a vote. To become a member, you must first purchase two cooperative shares of CHF 50 each (CHF 100 total). These shares entitle you to vote. From the second year, the annual membership fee to maintain these shares is CHF 50.</p><p>Note that voting rights are separate from fees related to member services. The initial membership fee includes a free, one-year subscription to member services. Using Apertus is separate; the chat is free, and API use is billed separately. Any surpluses are reinvested, not paid out.</p></details>
+          <details class="faq-item"><summary>Why create a cooperative?</summary><p>Switzerland increasingly relies on foreign AI platforms governed from Silicon Valley or Shenzhen. It's time for a new model, one we collectively own and control.</p></details>
+          <details class="faq-item"><summary>What's a cooperative?</summary><p>A cooperative or co-op is a company owned and democratically controlled by its members. Think Migros, Coop, Raiffeisen, or Mobility.</p></details>
+          <details class="faq-item"><summary>How does this compare to ChatGPT/OpenAI?</summary><p>Instead of paying CHF 240 a year for ChatGPT, members pay CHF 100 to own a piece of their own AI.</p></details>
+          <details class="faq-item"><summary>Is the platform already live?</summary><p>Yes! Try it at <a href="https://chat.publicai.co" target="_blank" rel="noopener noreferrer">chat.publicai.co</a> or the API at <a href="https://platform.publicai.co/docs" target="_blank" rel="noopener noreferrer">platform.publicai.co/docs</a>.</p></details>
         </div>
       </div>
     </section>
-
-  </main>
+</main>
   <footer class="site-footer" id="resources">
     <div class="site-footer__content">
       <div class="site-footer__links">
-        <a href="https://apertvs.ai" target="_blank">Apertus Documentation</a>
-        <a href="https://publicai.co" target="_blank">Public AI Homepage</a>
-        <a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank">Hugging Face: Public AI</a>
-        <a href="https://github.com/forpublicai/publicai.ch" target="_blank">Source of this web site</a>
+        <a href="/news.html">News</a>
+        <a href="/about.html">About</a>
+        <a href="/join.html" class="js-join-link">Become a member</a>
+        <a href="/contact.html">Contact</a>
+        <a href="https://www.apertus-ai.org/" target="_blank" rel="noopener noreferrer">Apertus</a>
+        <a href="https://chat.publicai.co/" target="_blank" rel="noopener noreferrer">Chat</a>
+        <a href="https://platform.publicai.co/docs" target="_blank" rel="noopener noreferrer">API docs</a>
+        <a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+        <a href="https://github.com/forpublicai/publicai.ch" target="_blank" rel="noopener noreferrer">Source of this website</a>
       </div>
-      <p>
-        Photo:
-        Joshua Tan
-        (CC BY 4.0) · 
-        Icons:
-        <a href="https://thenounproject.com/browse/collection-icon/ai-197389/" target="_blank">Noun Project</a>
-        (CC BY 3.0)
-      </p>
+      <p>Photo: Joshua Tan (CC BY 4.0)</p>
       <div class="site-footer__legal">
-        <a href="terms.html">Terms &amp; Conditions</a>
-        <a href="privacy.html">Privacy Notice</a>
-        <a href="about.html">About</a>
+        <a href="/statuten.html">Statutes</a>
+        <a href="/fonds.html">Research & development fund</a>
+        <a href="/terms.html">Terms & Conditions</a>
+        <a href="/privacy.html">Privacy Notice</a>
+        <a href="/impressum.html">Legal notice</a>
+        <a href="/about.html">About</a>
       </div>
-      <p>Copyright &copy; Public AI Switzerland 2026. All rights reserved.</p>
+      <p>Copyright © Public AI Switzerland 2026. All rights reserved.</p>
     </div>
   </footer>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const OPEN_COLLECTIVE_CHECKOUT_URL = 'https://opencollective.com/datalets/projects/public-ai-switzerland/contribute/founding-membership-99202/checkout?interval=year&amount=100&contributeAs=me';
-
-      document.querySelectorAll('.js-join-link').forEach((link) => {
-        link.setAttribute('href', OPEN_COLLECTIVE_CHECKOUT_URL);
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
-      });
-    });
-  </script>
   <script src="assets/lang-switcher.js"></script>
   <script src="assets/site-nav.js"></script>
+  <script src="assets/join.js"></script>
 </body>
 </html>

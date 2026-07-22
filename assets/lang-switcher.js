@@ -4,6 +4,7 @@
     { id: "de", label: "DE", hreflang: "de-CH" },
     { id: "fr", label: "FR", hreflang: "fr-CH" },
     { id: "it", label: "IT", hreflang: "it-CH" },
+    { id: "rm", label: "RM", hreflang: "rm-CH" },
   ];
 
   function parsePath() {
@@ -12,7 +13,7 @@
       .split("/")
       .filter(Boolean);
 
-    const localeIds = ["de", "fr", "it"];
+    const localeIds = ["de", "fr", "it", "rm"];
     let locale = "en";
     let page = "index.html";
 

@@ -1,0 +1,73 @@
+/* NB International Pro CG — licensed per NB EULA in nb-international-pro-cg/ */
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-light-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-lightitalic-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-book-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-italic-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-medium-webfont.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-bold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG';
+  src: url('nb-international-pro-cg/nbinternationalprocg-bolditalic-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NB International Pro CG Mono';
+  src: url('nb-international-pro-cg/nbinternationalprocg-mono-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

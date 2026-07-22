@@ -1,0 +1,34 @@
+{
+  "members": [
+    {
+      "name": "Anna Sotnikova",
+      "photo": "assets/team/anna-sotnikova.jpg",
+      "alt_key": "Foto von Anna Sotnikova"
+    },
+    {
+      "name": "Cornelia Wolfenstädter",
+      "photo": "assets/team/cornelia-wolfenstaedter.png",
+      "alt_key": "Foto von Cornelia Wolfenstädter"
+    },
+    {
+      "name": "Daria Höhener",
+      "photo": "assets/team/daria-hoehener.jpg",
+      "alt_key": "Foto von Daria Höhener"
+    },
+    {
+      "name": "Joshua Tan",
+      "photo": "assets/team/joshua-tan.jpg",
+      "alt_key": "Foto von Joshua Tan"
+    },
+    {
+      "name": "Oleg Lavrovsky",
+      "photo": "assets/team/oleg-lavrovsky.jpg",
+      "alt_key": "Foto von Oleg Lavrovsky"
+    },
+    {
+      "name": "Prashanth Kanduri",
+      "photo": "assets/team/prashanth-kanduri.jpg",
+      "alt_key": "Foto von Prashanth Kanduri"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "hero_title": "Sag Hallo",
+  "hero_subtitle": "Fragen zur Genossenschaft, zu Apertus oder zur Zusammenarbeit? Schreib uns, wir melden uns.",
+  "channels": [
+    {
+      "title_key": "Allgemeine Anfragen",
+      "desc_key": "Für Fragen zur Genossenschaft, zu Apertus oder zur Zusammenarbeit.",
+      "action": "mailto:hello@publicai.co",
+      "action_label_key": "Nachricht senden"
+    },
+    {
+      "title_key": "Presse & Partnerschaften",
+      "desc_key": "Für Medienanfragen und Partnerschaftsgespräche.",
+      "action": "mailto:hello@publicai.co",
+      "action_label_key": "Kontakt aufnehmen"
+    },
+    {
+      "title_key": "Genossenschafter:innen",
+      "desc_key": "Mitglieder erreichen uns direkt im Community-Bereich (in Kürze verfügbar).",
+      "action": "",
+      "action_label_key": ""
+    }
+  ],
+  "address_heading": "Postanschrift",
+  "address_lines": [
+    "Public AI Switzerland",
+    "Waldeggstrasse 34",
+    "3097 Liebefeld",
+    "Schweiz"
+  ],
+  "address_note_key": "Provisorische Adresse bis zur Eintragung im Handelsregister.",
+  "quick_links_heading": "Schnellzugriff",
+  "quick_links": [
+    {
+      "label_key": "Apertus Chat",
+      "href": "https://chat.publicai.co/",
+      "external": true
+    },
+    {
+      "label_key": "API docs",
+      "href": "https://platform.publicai.co/docs",
+      "external": true
+    },
+    {
+      "label_key": "Apertus",
+      "href": "https://www.apertus-ai.org/",
+      "external": true
+    },
+    {
+      "label_key": "Schweizer Nationaler KI-Dialog",
+      "href": "https://dialogue.publicai.ch",
+      "external": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "hero_title": "Allgemeine Geschäftsbedingungen",
+  "hero_subtitle": "Public AI Switzerland Genossenschaft · Stand Juli 2026 · Entwurf zur Prüfung durch die Gremien",
+  "notice_key": "Diese Bedingungen sind ein Entwurf und gelten vorbehaltlich der formellen Gründung der Genossenschaft. Der massgebliche Rechtsrahmen ergibt sich aus den Statuten.",
+  "sections": [
+    {
+      "heading_key": "1. Geltungsbereich",
+      "body_key": "Diese Bedingungen regeln das Verhältnis zwischen dir und Public AI Switzerland bei der Zeichnung von Genossenschaftsanteilen und der Nutzung unserer Dienste, insbesondere Apertus."
+    },
+    {
+      "heading_key": "2. Die Genossenschaft",
+      "body_key": "Public AI Switzerland ist eine Genossenschaft nach Art. 828 ff. OR. Bis zur formellen Eintragung werden Beiträge treuhänderisch verwaltet."
+    },
+    {
+      "heading_key": "3. Anteil und Mitgliedschaft",
+      "body_key": "Du trittst bei, indem du mindestens zwei Anteilscheine à CHF 50.– zeichnest (total CHF 100.–). Jedes Mitglied hat eine Stimme."
+    },
+    {
+      "heading_key": "4. Forschungs- und Entwicklungsfonds",
+      "body_key": "Ab dem zweiten Jahr der Mitgliedschaft leistest du mindestens CHF 50.– pro Jahr in den Forschungs- und Entwicklungsfonds ein."
+    },
+    {
+      "heading_key": "5. Nutzung von Apertus",
+      "body_key": "Die Nutzung von Apertus ist von der Mitgliedschaft getrennt. Der Chat ist in der Regel kostenlos; die API wird nach Nutzung abgerechnet."
+    },
+    {
+      "heading_key": "6. Verfügbarkeit und Gewährleistung",
+      "body_key": "Wir bemühen uns um zuverlässigen Betrieb, können aber keine unterbrechungsfreie Verfügbarkeit garantieren."
+    },
+    {
+      "heading_key": "7. Haftung",
+      "body_key": "Soweit gesetzlich zulässig, haften wir nur für Schäden aus grober Fahrlässigkeit oder Vorsatz."
+    },
+    {
+      "heading_key": "8. Geistiges Eigentum",
+      "body_key": "Apertus ist ein offenes Modell. Marke, Logo und redaktionelle Inhalte von Public AI Switzerland sind geschützt."
+    },
+    {
+      "heading_key": "9. Änderungen",
+      "body_key": "Wir können diese Bedingungen anpassen und Mitglieder über wesentliche Änderungen rechtzeitig informieren."
+    },
+    {
+      "heading_key": "10. Anwendbares Recht und Gerichtsstand",
+      "body_key": "Es gilt ausschliesslich Schweizer Recht. Gerichtsstand ist der Sitz der Genossenschaft."
+    }
+  ]
+}

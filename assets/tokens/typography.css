@@ -1,0 +1,21 @@
+:root {
+  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Public Sans', var(--font-sans);
+  --font-brand: 'NB International Pro CG', var(--font-sans);
+  --font-heading: 'Overpass', var(--font-sans);
+  --font-ui: 'Inter', var(--font-sans);
+  --font-mono: 'Overpass Mono', ui-monospace, monospace;
+  --font-annotation: 'Roboto Flex', var(--font-sans);
+
+  --font-size-body: 15px;
+  --font-size-button: 14px;
+  --font-size-h2: 38px;
+  --font-size-h3: 24px;
+  --font-size-card: 18px;
+  --font-size-spec: 12px;
+
+  --line-height-body: 1.6;
+  --line-height-display: 0.9;
+  --letter-spacing-display: -0.03em;
+  --letter-spacing-display-lg: -0.05em;
+}

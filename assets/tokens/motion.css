@@ -1,0 +1,3 @@
+:root {
+  --transition-color: color 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}

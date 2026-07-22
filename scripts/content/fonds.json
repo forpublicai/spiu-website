@@ -1,0 +1,25 @@
+{
+  "hero_title": "Forschungs- und Entwicklungsfonds",
+  "hero_subtitle": "Der Fonds ist der Impact Hub der Genossenschaft: Ab dem zweiten Jahr zahlst du jährlich mindestens CHF 50.– ein. Damit bauen und betreiben wir die Public-AI-Plattform und finanzieren Forschungs- und Entwicklungsprojekte, die dem Zweck der Genossenschaft dienen. Wohin das Geld fliesst, entscheidet die Generalversammlung.",
+  "allocation": [
+    {"percent": "45%", "label_key": "Plattform & Betrieb"},
+    {"percent": "30%", "label_key": "Forschung & Modelle"},
+    {"percent": "15%", "label_key": "Landessprachen & Daten"},
+    {"percent": "10%", "label_key": "Community & Bildung"}
+  ],
+  "allocation_note_key": "Beispielhafte Verteilung · über die konkrete Verwendung entscheidet die Generalversammlung jährlich",
+  "principles": [
+    {
+      "title_key": "Gemeinsam finanziert",
+      "desc_key": "Jedes Mitglied trägt gleich viel bei, unabhängig von der Nutzung"
+    },
+    {
+      "title_key": "Demokratisch vergeben",
+      "desc_key": "Die Generalversammlung setzt Prioritäten und stimmt über Projekte ab"
+    },
+    {
+      "title_key": "Transparent verwendet",
+      "desc_key": "Wir legen offen, welche Projekte gefördert werden und was daraus entsteht"
+    }
+  ]
+}

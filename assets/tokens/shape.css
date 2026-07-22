@@ -1,0 +1,40 @@
+:root {
+  --radius-pill: 1000px;
+  --radius-control: 10px;
+  --radius-card: 16px;
+  --radius-hero: 30px;
+  --radius-nav-sheet: 20px;
+  --max-width: 1500px;
+  --max-width-content: 960px;
+  --section-padding-y: clamp(5rem, 8vw, 7.5rem);
+  --section-padding-x: 1rem;
+
+  --border-radius: var(--radius-control);
+  --border-radius-lg: var(--radius-card);
+
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
+  --spacing-xl: 5rem;
+
+  --nav-control-height: 1.75rem;
+  --site-nav-font-size: 0.86em;
+  --site-nav-link-padding-y: 0.52em;
+  --site-nav-link-padding-x: 0.7em;
+  --site-nav-logo-height: 35px;
+  --site-nav-row-height: var(--site-nav-logo-height);
+  --site-nav-bar-height: calc(
+    var(--site-nav-row-height) + 2 * var(--site-nav-bar-padding-y)
+  );
+  --site-nav-bar-padding-y: 0.75em;
+  --site-nav-bar-padding-x: 1rem;
+  --site-nav-cluster-gap: 0.35rem;
+
+  --shadow-nav: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-hero: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-sm: var(--shadow-nav);
+  --shadow-md: var(--shadow-nav);
+  --shadow-lg: var(--shadow-nav);
+  --shadow-primary: none;
+}

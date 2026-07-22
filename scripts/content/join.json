@@ -1,0 +1,62 @@
+{
+  "hero_title": "Genossenschafter werden",
+  "hero_subtitle": "Ein Anteil, kein Abo. Für CHF 100.– besitzt du eine Stimme, ein Zertifikat und Genossenschaftsmitglied-Vorteile",
+  "disclaimer_key": "Public AI Switzerland wird derzeit formell als Genossenschaft gegründet. Gründungsbeiträge werden bis zur Eintragung treuhänderisch verwaltet. Leistungen können sich bis zur Gründung noch ändern.",
+  "compare_heading": "Mitglied vs. Nutzer:in",
+  "compare_intro_key": "Apertus kannst du auch ohne Genossenschaftsanteil nutzen. Die Mitgliedschaft macht dich zur Miteigentümer:in mit Stimmrecht.",
+  "compare_headers": {
+    "feature_key": "Leistung",
+    "member_key": "Mitglied",
+    "non_member_key": "Nicht-Mitglied"
+  },
+  "compare_rows": [
+    {
+      "feature_key": "Apertus Chat",
+      "member_key": "Kostenlos",
+      "non_member_key": "Kostenlos"
+    },
+    {
+      "feature_key": "API-Zugang",
+      "member_key": "Nach Nutzung",
+      "non_member_key": "Nach Nutzung"
+    },
+    {
+      "feature_key": "Stimmrecht in der Genossenschaft",
+      "member_key": "Ja (1 Person, 1 Stimme)",
+      "non_member_key": "Nein"
+    },
+    {
+      "feature_key": "Erweitertes Chat-Erlebnis",
+      "member_key": "Geplant",
+      "non_member_key": "Nein"
+    },
+    {
+      "feature_key": "Mitgliedschaftszertifikat",
+      "member_key": "Ja",
+      "non_member_key": "Nein"
+    },
+    {
+      "feature_key": "Beitrag an Forschungs- und Entwicklungsfonds",
+      "member_key": "Ab Jahr 2 mind. CHF 50.–/Jahr",
+      "non_member_key": "Nein"
+    }
+  ],
+  "benefits": [
+    {
+      "title_key": "Erweitertes Chat-Erlebnis",
+      "desc_key": "Grössere Kontextfenster, Datei- und Bild-Uploads sowie Gruppen-Chats in einem verbesserten Apertus"
+    },
+    {
+      "title_key": "Kuratierte Impulse aus der Community",
+      "desc_key": "Werkzeuge, Ideen und Empfehlungen aus der Genossenschaft, statt Werbung"
+    },
+    {
+      "title_key": "Mitgliedschaftszertifikat",
+      "desc_key": "Dein persönliches Mitgliedschaftszertifikat der Genossenschaft"
+    },
+    {
+      "title_key": "Public AI aktiv mitgestalten",
+      "desc_key": "Mit deinem Genossenschaftsanteil gestaltest du Public AI Switzerland aktiv mit"
+    }
+  ]
+}

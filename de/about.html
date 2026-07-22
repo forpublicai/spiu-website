@@ -3,74 +3,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Über uns — Public AI Switzerland</title>
+  <title>About, Public AI Switzerland</title>
+  <meta name="description" content="About Public AI Switzerland.">
+  <link rel="canonical" href="https://publicai.ch/de/about.html">
   <link rel="alternate" hreflang="en" href="https://publicai.ch/about.html">
   <link rel="alternate" hreflang="de-CH" href="https://publicai.ch/de/about.html">
   <link rel="alternate" hreflang="fr-CH" href="https://publicai.ch/fr/about.html">
   <link rel="alternate" hreflang="it-CH" href="https://publicai.ch/it/about.html">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7/picnic.min.css">
+  <link rel="alternate" hreflang="rm-CH" href="https://publicai.ch/rm/about.html">
+  <link rel="alternate" hreflang="x-default" href="https://publicai.ch/about.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Overpass+Mono&family=Overpass:wght@700&family=Public+Sans:wght@300;400;600&family=Roboto+Flex:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/fonts/nb-international.css">
   <link href="../assets/style.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="/favicon.ico">
 </head>
 <body style="margin: 0; padding: 0;">
-  <nav class="site-nav site-nav--overlay" aria-label="Hauptnavigation">
+  <nav class="site-nav site-nav--overlay" aria-label="Main">
     <a class="site-nav__brand" href="/de/" title="Public AI Switzerland">
-      <img src="../assets/public-ai-logo.png" alt="Public AI Logo" class="site-nav__logo">
+      <img src="../assets/logo-switzerland-de.png" alt="Public AI Switzerland" class="site-nav__logo">
     </a>
     <div class="site-nav__cluster">
       <div class="site-nav__lang" data-lang-switcher></div>
-      <div class="site-nav__links" id="site-menu">
-        <a href="about.html" class="site-nav__link">Über uns</a>
-        <a href="index.html#join" class="site-nav__link">Mitmachen</a>
-        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Anmelden</a>
-      </div>
-      <button
-        class="site-nav__toggle"
-        type="button"
-        aria-label="Navigationsmenü ein-/ausblenden"
-        aria-expanded="false"
-        aria-controls="site-menu"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="site-nav__toggle" type="button" aria-label="Navigationsmenü umschalten" aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span><span></span>
       </button>
+      <button class="site-nav__backdrop" type="button" aria-label="Close menu" tabindex="-1"></button>
+      <div class="site-nav__links" id="site-menu">
+        <a href="/de/about.html" class="site-nav__link">Über uns</a>
+        <a href="/de/news.html" class="site-nav__link">News</a>
+        <a href="/de/join.html" class="site-nav__link js-join-link">Mitmachen</a>
+        <a href="/de/contact.html" class="site-nav__link">Kontakt</a>
+        <a href="#" class="site-nav__link is-disabled" tabindex="-1" aria-disabled="true">Mitglieder-Login</a>
+      </div>
     </div>
   </nav>
-
-  <main>
-    <header class="hero" style="height: 55vh; min-height: 360px;">
+<main>
+    <header class="hero hero--subpage" style="--hero-background-image: url('/assets/IMG_2517.jpg');">
+      <div class="hero__media" aria-hidden="true"></div>
       <div class="content">
         <h1>Über Public AI Switzerland</h1>
-        <p class="dynamic-numbers">
-          Eine kundeneigene Genossenschaft, die KI-Infrastruktur für
-          das Gemeinwohl aufbaut.
-        </p>
+        <p class="dynamic-numbers">Öffentliche KI für die Schweiz — genossenschaftlich, auf Schweizer Infrastruktur.</p>
       </div>
     </header>
-
-    <section class="flex one intro-section">
+    <section class="flex one page-section intro-section">
       <div class="content">
-        <h2>KI-Infrastruktur im Dienst der Menschen</h2>
-        <p class="larger">
-          Public AI Switzerland ist eine kundeneigene Genossenschaft, die
-          Schweizer KI — insbesondere Apertus — an Einwohnerinnen,
-          Einwohner und Unternehmen in der Schweiz vermittelt. Durch
-          genossenschaftliches Eigentum halten wir KI erschwinglich,
-          transparent und den Nutzenden gegenüber rechenschaftspflichtig.
-        </p>
-        <p>
-          Statt Wert für externe Aktionärinnen und Aktionäre zu
-          extrahieren, investieren wir in gemeinsame Infrastruktur,
-          Community-Kapazität und langfristiges Gemeinwohl.
-        </p>
-        <p>
-          <a href="index.html#join" class="button">Gründungsmitglied werden</a>
-        </p>
+        <p class="larger">Public AI Switzerland ist eine kundeneigene Genossenschaft. Wir helfen Menschen in der Schweiz, Schweizer KI zu nutzen, zu besitzen und mitzugestalten.</p>
+        <p class="intro-mission">Unsere Mission: öffentliche KI in der Schweiz aufbauen und unterstützen.</p>
+        <p class="larger">Public AI Switzerland ist das Schweizer Kapitel der grösseren Bewegung für öffentliche KI (auch «Public AI», grossgeschrieben). Wie viele in dieser Bewegung sind wir überzeugt, dass KI eine Form öffentlicher Infrastruktur sein sollte — wie Parks, Züge oder Strom.</p>
+        <p class="larger">Wenn du neugierig bist, wirf einen Blick auf unsere Schwesterprojekte — darunter die <a href="https://publicai.co" target="_blank" rel="noopener noreferrer">Public AI Inference Utilty</a>, ein gemeinnütziges Open-Source-Projekt, das die technische Infrastruktur baut, und das <a href="https://publicai.network" target="_blank" rel="noopener noreferrer">Public AI Network</a>, ein Treffpunkt für die Bewegung.</p>
       </div>
     </section>
-  </main>
+    <section class="flex one page-section" id="team">
+      <div class="content">
+        <h2>Team</h2>
+        <div class="team-grid">
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/anna-sotnikova.jpg" alt="Foto von Anna Sotnikova" loading="lazy">
+            <h3 class="team-card__name">Anna Sotnikova</h3>
+          </article>
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/cornelia-wolfenstaedter.png" alt="Foto von Cornelia Wolfenstädter" loading="lazy">
+            <h3 class="team-card__name">Cornelia Wolfenstädter</h3>
+          </article>
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/daria-hoehener.jpg" alt="Foto von Daria Höhener" loading="lazy">
+            <h3 class="team-card__name">Daria Höhener</h3>
+          </article>
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/joshua-tan.jpg" alt="Foto von Joshua Tan" loading="lazy">
+            <h3 class="team-card__name">Joshua Tan</h3>
+          </article>
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/oleg-lavrovsky.jpg" alt="Foto von Oleg Lavrovsky" loading="lazy">
+            <h3 class="team-card__name">Oleg Lavrovsky</h3>
+          </article>
+          <article class="team-card">
+            <img class="team-card__photo" src="../assets/team/prashanth-kanduri.jpg" alt="Foto von Prashanth Kanduri" loading="lazy">
+            <h3 class="team-card__name">Prashanth Kanduri</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="flex one page-section">
+      <div class="content">
+        <h2>Verwaltung</h2>
+        <p>Die Verwaltung wird von den Genossenschafter:innen gewählt.</p>
+      </div>
+    </section>
+    <section class="flex one page-section quote-wall-section">
+      <div class="content">
+        <h2>Zitatwand</h2>
+        <div class="quote-wall">
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">Wenn Apertus auf CSCS läuft, sollten wir nicht einfach eine Genossenschaft gründen?</p>
+            <footer class="quote-wall__author">— Oleg Lavrovsky</footer>
+          </blockquote>
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">Die beste Infrastruktur ist die, die niemand besitzt und jeder nutzen kann.</p>
+            <footer class="quote-wall__author">— Prashanth Kanduri</footer>
+          </blockquote>
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">😊😊😊</p>
+            <footer class="quote-wall__author">— Daria Höhener</footer>
+          </blockquote>
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">Gratias vobis omnibus (apertvs style).</p>
+            <footer class="quote-wall__author">— Vasco Schiavo</footer>
+          </blockquote>
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">Don&#x27;t use &quot;ordinary residents&quot;. Nobody want to be ordinary.</p>
+            <footer class="quote-wall__author">— Jürg Stuker</footer>
+          </blockquote>
+          <blockquote class="quote-wall__item">
+            <p class="quote-wall__text">Was brauchen die Kantone wirklich — und was glauben wir nur, dass sie brauchen?</p>
+            <footer class="quote-wall__author">— Anna Sotnikova</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+</main>
+  <footer class="site-footer" id="resources">
+    <div class="site-footer__content">
+      <div class="site-footer__links">
+        <a href="/de/news.html">News</a>
+        <a href="/de/about.html">Über uns</a>
+        <a href="/de/join.html" class="js-join-link">Genossenschafter werden</a>
+        <a href="/de/contact.html">Kontakt</a>
+        <a href="https://www.apertus-ai.org/" target="_blank" rel="noopener noreferrer">Apertus</a>
+        <a href="https://chat.publicai.co/" target="_blank" rel="noopener noreferrer">Chat</a>
+        <a href="https://platform.publicai.co/docs" target="_blank" rel="noopener noreferrer">API-Dokumentation</a>
+        <a href="https://huggingface.co/blog/inference-providers-publicai" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+        <a href="https://github.com/forpublicai/publicai.ch" target="_blank" rel="noopener noreferrer">Quellcode dieser Website</a>
+      </div>
+      <p>Foto: Joshua Tan (CC BY 4.0)</p>
+      <div class="site-footer__legal">
+        <a href="/de/statuten.html">Statuten</a>
+        <a href="/de/fonds.html">Forschungs- und Entwicklungsfonds</a>
+        <a href="/de/terms.html">AGB</a>
+        <a href="/de/privacy.html">Datenschutzerklärung</a>
+        <a href="/de/impressum.html">Impressum</a>
+        <a href="/de/about.html">Über uns</a>
+      </div>
+      <p>Copyright © Public AI Switzerland 2026. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
   <script src="../assets/lang-switcher.js"></script>
   <script src="../assets/site-nav.js"></script>
+  <script src="../assets/join.js"></script>
 </body>
 </html>

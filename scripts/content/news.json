@@ -1,0 +1,46 @@
+{
+  "hero_title": "Neuigkeiten aus der Genossenschaft",
+  "hero_subtitle": "Was bei Public AI Switzerland passiert, von der Gründung bis zum Alltag in der Community.",
+  "items": [
+    {
+      "id": "snad-dialogue",
+      "date": "2026-07-21",
+      "title_key": "Schweizer Nationaler KI-Dialog gestartet",
+      "summary_key": "Public AI bringt die Stimme der Bürger:innen in den nationalen KI-Dialog ein. Nimm teil und hilf mit, wie die Schweiz über künstliche Intelligenz entscheidet.",
+      "link": "https://dialogue.publicai.ch",
+      "link_label_key": "Zum KI-Dialog →"
+    },
+    {
+      "id": "founding-planned",
+      "date": "2026-07-17",
+      "title_key": "Gründung der Genossenschaft in Vorbereitung",
+      "summary_key": "Public AI Switzerland wird derzeit formell als Genossenschaft gegründet. Der Termin wird mit der Notarin abgestimmt. Bis dahin können Interessierte weiterhin Gründungsmitgliedschaften über OpenCollective zeichnen.",
+      "link": "join.html",
+      "link_label_key": "Gründungsmitglied werden →"
+    },
+    {
+      "id": "venture-spotlight",
+      "date": "2026-06-15",
+      "title_key": "Finalist:in beim venture.ch Spotlight Award",
+      "summary_key": "Public AI Switzerland gehörte unter Tausenden von Bewerbungen zu den drei Finalistinnen des inauguralen Spotlight Awards für innovative Apertus-Anwendungen beim >>venture>> Wettbewerb und gewann CHF 10'000.",
+      "link": "https://www.venture.ch/spotlight",
+      "link_label_key": "Zum Spotlight Award →"
+    },
+    {
+      "id": "mesh-festival",
+      "date": "2026-06-01",
+      "title_key": "Mesh Festival Basel im Oktober 2026",
+      "summary_key": "Public AI Switzerland ist beim Mesh Festival in Basel am 16. Oktober 2026 im HGK Basel FHNW Auditorium vertreten.",
+      "link": null,
+      "link_label_key": null
+    },
+    {
+      "id": "founding-members",
+      "date": "2026-05-20",
+      "title_key": "Gründungsmitgliedschafts-Kampagne",
+      "summary_key": "Unterstützer:innen können bereits jetzt eine Gründungsmitgliedschaft zeichnen und sich für die formale Mitgliedschaft nach Abschluss der Gründung vormerken lassen.",
+      "link": "join.html",
+      "link_label_key": "Mehr erfahren →"
+    }
+  ]
+}
