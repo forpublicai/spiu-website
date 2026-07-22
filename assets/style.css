@@ -1141,6 +1141,25 @@ main section + section:not(.founding-member-cta)::before {
 /* ========================================================
    Timeline Section
    ======================================================== */
+#timeline h2 {
+  text-align: center;
+}
+
+#timeline .timeline-layout {
+  max-width: 42rem;
+  margin-inline: auto;
+  grid-template-columns: 1fr;
+}
+
+#timeline .timeline-sidebar {
+  position: static;
+  text-align: center;
+}
+
+#timeline .timeline-sidebar p {
+  margin-inline: auto;
+}
+
 .timeline-layout {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -1251,6 +1270,7 @@ main section + section:not(.founding-member-cta)::before {
   color: var(--text-medium);
   line-height: 1.7;
   margin: 0;
+  max-width: 32rem;
 }
 
 .timeline__item:hover .timeline__detail {
@@ -1273,6 +1293,10 @@ main section + section:not(.founding-member-cta)::before {
 /* ========================================================
    Comparison Section (Public AI vs. ChatGPT)
    ======================================================== */
+#compare h2 {
+  text-align: center;
+}
+
 .compare-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

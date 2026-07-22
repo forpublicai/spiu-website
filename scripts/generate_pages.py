@@ -240,6 +240,7 @@ def page_shell(
 
 
 def timeline_section() -> str:
+    logo = LOGO_BY_LOCALE.get(CURRENT_LOCALE, LOGO_BY_LOCALE["en"])
     return f"""    <section class="flex one" id="timeline">
       <div class="content">
         <h2>{t('Eine Schweizer Tradition, fortgesetzt')}</h2>
@@ -283,7 +284,7 @@ def timeline_section() -> str:
             <div class="timeline__item timeline__item--highlight">
               <div class="timeline__marker"><span class="timeline__year">2025</span></div>
               <div class="timeline__body">
-                <img src="/assets/public-ai-logo.png" alt="Public AI Switzerland" class="timeline__logo">
+                <img src="/assets/{logo}" alt="Public AI Switzerland" class="timeline__logo">
                 <p class="timeline__era">{t('Kollektive Intelligenz')}</p>
                 <p class="timeline__detail">{t('Als KI zu kritischer Infrastruktur wurde, die von wenigen ausländischen Konzernen kontrolliert wird, hat die Schweiz getan, was sie immer tut: eine Genossenschaft gegründet.')}</p>
               </div>
