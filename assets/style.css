@@ -644,10 +644,13 @@ header.hero {
   align-items: center;
 }
 
-.hero-cta__dialogue {
+.hero-cta__dialogue,
+a.hero-cta__dialogue,
+a.button.hero-cta__dialogue {
   flex: 0 0 100%;
   max-width: 28rem;
   text-align: center;
+  white-space: normal;
 }
 
 /* ========================================================
@@ -2027,7 +2030,7 @@ main section + section:not(.founding-member-cta)::before {
    Site Footer
    ======================================================== */
 .site-footer {
-  background: var(--color-olive);
+  background: var(--color-brand);
   color: rgba(255, 255, 255, 0.85);
   padding: var(--spacing-lg) 0;
   border-top: none;
